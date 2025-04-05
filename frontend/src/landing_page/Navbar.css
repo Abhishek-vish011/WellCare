@@ -1,0 +1,127 @@
+/* Navbar styles */
+.navbar {
+    background-color: white;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 10rem 0 10rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid rgb(96, 96, 96);
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 4rem;
+  }
+  
+  .nav-links a {
+    font-size: 1.2rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #141010;
+    color: #4CAF50;
+  }
+  
+  /* Mobile menu button */
+  .menu-btn {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+  }
+  
+  .sidebar.open {
+    width: 250px;
+  }
+  
+  .sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 2rem;
+    margin-left: 50px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Sidebar overlay */
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    transition: 0.3s;
+  }
+  
+  /* Content styles */
+  .content {
+    padding: 20px;
+    transition: margin-left 0.3s;
+  }
+  
+  .content.shifted {
+    margin-left: 250px;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .sidebar {
+      display: block;
+    }
+    .logo img{
+      width: 100%;
+    }
+    .navbar{
+      padding: 0.4rem 1rem 0.4rem 0;
+    }
+  }
