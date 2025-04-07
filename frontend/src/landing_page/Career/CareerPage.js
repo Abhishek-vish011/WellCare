@@ -19,7 +19,7 @@ function CareerPage() {
               <img style={{opacity:"0.5"}} src="/media/Images/Nursing.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay">
                 <h2 class="card-title">Nursing</h2>
-                <p class="card-text" style={{fontSize:"20px"}}>
+                <p class="card-text">
                 Find the nursing role that fits your professional goals with us
                 </p>
                 <p class="card-text">
@@ -33,8 +33,8 @@ function CareerPage() {
               <img style={{opacity:"0.5"}} src="/media/Images/technicians.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay">
                 <h2 class="card-title">Technicians</h2>
-                <p class="card-text" style={{fontSize:"20px"}}>
-                Explore careers in Radiology, Diagnostic, Physiotherapy, Nutrition, Ophthalmology, Audio, Dental, Mental Wellness, Renal, Surgical & Anesthesia practices.
+                <p class="card-text">
+                Explore careers in Radiology, Diagnostic, Physiotherapy, Nutrition, Ophthalmology, Audio, Dental, Mental Wellness, Renal practices.
                 </p>
                 <p class="card-text">
                   <button className="btn" style={{backgroundColor:"#fbd0dd"}}>Click Here to Apply</button>
@@ -49,8 +49,8 @@ function CareerPage() {
               <img style={{opacity:"0.5"}} src="/media/Images/medicsup.jpg" class="card-img" alt="..." />
               <div class="card-img-overlay">
                 <h2 class="card-title">Medical Supports</h2>
-                <p class="card-text" style={{fontSize:"20px"}}>
-                Explore careers in Medical Administration, Clinical Research, Bio medical engineering, Clinical Pharmacology, Patient Care Services, Blood Bank functions
+                <p class="card-text">
+                Explore careers in Medical Administration, Clinical Research, Bio medical engineering, Clinical Pharmacology, Blood Bank functions
                 </p>
                 <p class="card-text">
                   <button className="btn" style={{backgroundColor:"#fbd0dd"}}>Click Here to Apply</button>
@@ -63,7 +63,7 @@ function CareerPage() {
               <img style={{opacity:"0.5"}} src="/media/Images/clinic.webp " class="card-img" alt="..." />
               <div class="card-img-overlay">
                 <h2 class="card-title">Clinicians</h2>
-                <p class="card-text" style={{fontSize:"20px"}}>
+                <p class="card-text">
                 Explore jobs for practicing clinicians across specialties and Fortis Hospitals
                 </p>
                 <p class="card-text">

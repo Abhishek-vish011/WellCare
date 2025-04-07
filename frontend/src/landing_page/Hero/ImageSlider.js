@@ -40,11 +40,12 @@ const ImageSlider = ({ images, slideInterval = 3000 }) => {
         <div className="right-arrow" onClick={goToNext}>❱</div> */}
         <div 
           className="slide" 
-          style={{ backgroundImage: `url(${images[currentIndex]})` }}
-        >
-          <h1>Doctor Appointment</h1>
+          style={{ backgroundImage: `url(${images[currentIndex]})`}}>
+          </div>
+          <div class="box">
         </div>
-      </div>
+        </div>
+     
       <div className="dots-container">
         {images.map((_, slideIndex) => (
           <div
